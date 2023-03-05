@@ -1,13 +1,12 @@
 
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import css from '../Home/Home.module.css';
 import { Avatar } from "@fluentui/react-components";
 // import React from "react"
-import styled from '@emotion/styled';
+// import styled from '@emotion/styled';
 import {
   makeStyles,
-  mergeClasses,
   shorthands,
   tokens,
   useId,
@@ -80,11 +79,12 @@ const useStyles = makeStyles({
 
 export const Home = () => {
   const outlineId = useId("input-outline");
-  const underlineId = useId("input-underline");
-  const filledLighterId = useId("input-filledLighter");
-  const filledDarkerId = useId("input-filledDarker");
+  // const underlineId = useId("input-underline");
+  // const filledLighterId = useId("input-filledLighter");
+  // const filledDarkerId = useId("input-filledDarker");
   const styles = useStyles();
 const [filter, setFilter] = useState('');
+console.log(filter)
 const {t} = useTranslation();
     const handleClick=(e)=>{
         i18next.changeLanguage(e.target.value)
@@ -207,21 +207,21 @@ return (
 
 export default Home;
 
-const Title = styled.h1`
-  display: flex;
-  width: 280px;
-  color: #212121;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 140%;
-  margin-bottom: 34px;
-  @media (min-width: 768px) {
-    width: 504px;
-    font-weight: 700;
-    font-size: 34px;
-    line-height: 140%;
-    margin-bottom: 68px;
-  }
-  @media (min-width: 1280px) {
-  }
-`;
+// const Title = styled.h1`
+//   display: flex;
+//   width: 280px;
+//   color: #212121;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 140%;
+//   margin-bottom: 34px;
+//   @media (min-width: 768px) {
+//     width: 504px;
+//     font-weight: 700;
+//     font-size: 34px;
+//     line-height: 140%;
+//     margin-bottom: 68px;
+//   }
+//   @media (min-width: 1280px) {
+//   }
+// `;
