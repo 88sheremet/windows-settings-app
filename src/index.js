@@ -5,7 +5,7 @@ import './index.css';
 import {BrowserRouter} from "react-router-dom"
 import { FluentProvider, teamsLightTheme, webDarkTheme, webLightTheme} from '@fluentui/react-components';
 import './i18n'
-// import i18n from 'i18next';
+
 import HttpApi from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
