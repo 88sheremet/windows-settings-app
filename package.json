@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://88sheremet.github.io/goit-react-hw-05-movies/",
+  "homepage": "https://88sheremet.github.io/windows-settings-app/",
   "dependencies": {
     "@emotion/styled": "^11.10.6",
     "@fluentui/react-components": "^9.15.6",
