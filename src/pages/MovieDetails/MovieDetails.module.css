@@ -1,0 +1,38 @@
+.movie_container {
+  display: flex;
+  column-gap: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.additional {
+  padding-left: 15px;
+}
+
+.additional_list {
+  display: flex;
+  column-gap: 15px;
+}
+
+.additional_list_item {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.additional_list_item:hover {
+  color: blue;
+}
+
+.genre_name {
+  margin: 5px;
+}
+
+.buttonGoBack {
+  margin: 15px;
+  cursor: pointer;
+  min-width: 100px;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
